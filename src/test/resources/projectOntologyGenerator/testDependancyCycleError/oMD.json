@@ -1,0 +1,22 @@
+[
+	{ 
+	"ontology_id":"a",
+	"ontology_prefix":"http://www.testProject.fr/a#",
+	"prefix_name":"a",
+	"ontology_dependancy":["c"]
+	},
+	{ 
+	"ontology_id":"b",
+	"ontology_prefix":"http://www.testProject.fr/b#",
+	"prefix_name":"b",
+	"ontology_dependancy":["a"]
+	},
+
+
+	{ 
+	"ontology_id":"c",
+	"ontology_prefix":"http://www.testProject.fr/c#",
+	"prefix_name":"c",
+	"ontology_dependancy":["b"]
+	}
+]

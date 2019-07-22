@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<xsd:schema elementFormDefault="qualified"
+    targetNamespace="http://ww.chu-lyon.fr/epitrack/ontology-description"
+    xmlns:onto="http://ww.chu-lyon.fr/epitrack/ontology-description" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xsd:element name="prefixElement">
+        <xsd:complexType>
+            <xsd:attribute name="prefix" type="xsd:string" use="required"/>
+            <xsd:attribute name="iri" type="xsd:string" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="ontology">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="onto:prefixElement"/>
+            <xsd:element ref="onto:ontologyImportSet"/>
+            </xsd:sequence>
+	   <xsd:attribute name="onto-id" type="xsd:ID" use="required"/>
+            <xsd:attribute name="name" type="xsd:string" use="required"/>
+            <xsd:attribute name="scope" type="xsd:string" use="required"/>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:element name="ontologyImportSet">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="onto:ontology" maxOccurs="unbounded" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

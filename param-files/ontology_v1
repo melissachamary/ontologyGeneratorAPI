@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ontology-dependancy  >
+    <ontology name="core-epitrack" onto-id="cepi_v1" scope="global reference">
+        <prefixElement iri="http://www." prefix="cepi"/>
+    </ontology>
+    <ontology name="hospital-epitrack" onto-id="hepi_v1" scope="global reference">
+        <prefixElement iri="http://www." prefix="hepi"/>
+    </ontology>
+    <ontology name="chu-ward-ontology" onto-id="ward_v1" scope="local reference">
+        <prefixElement iri="http://www." prefix="ward"/>
+        <ontologyImportSet>
+            <ontology onto-id="hepi_v1"/>
+        </ontologyImportSet>
+    </ontology>
+</ontology-dependancy>
+

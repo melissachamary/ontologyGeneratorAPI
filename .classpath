@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java" including="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/inject/javax.inject/1/javax.inject-1.jar" sourcepath="M2_REPO/javax/inject/javax.inject/1/javax.inject-1-sources.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/org/jgrapht/jgrapht-core/1.3.0/jgrapht-core-1.3.0.jar" sourcepath="M2_REPO/org/jgrapht/jgrapht-core/1.3.0/jgrapht-core-1.3.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/jheaps/jheaps/0.9/jheaps-0.9.jar" sourcepath="M2_REPO/org/jheaps/jheaps/0.9/jheaps-0.9-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/mapping-master/mapping-master/1.6/mapping-master-1.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sourceforge/owlapi/owlapi-distribution/4.2.6/owlapi-distribution-4.2.6.jar" sourcepath="M2_REPO/net/sourceforge/owlapi/owlapi-distribution/4.2.6/owlapi-distribution-4.2.6-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-databind/2.5.1/jackson-databind-2.5.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.5.1/jackson-annotations-2.5.1.jar" sourcepath="M2_REPO/com/fasterxml/jackson/core/jackson-annotations/2.5.1/jackson-annotations-2.5.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/tukaani/xz/1.5/xz-1.5.jar" sourcepath="M2_REPO/org/tukaani/xz/1.5/xz-1.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-model/2.7.16/sesame-model-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-model/2.7.16/sesame-model-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-util/2.7.16/sesame-util-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-util/2.7.16/sesame-util-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.7.10/slf4j-api-1.7.10-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-api/2.7.16/sesame-rio-api-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-api/2.7.16/sesame-rio-api-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-languages/2.7.16/sesame-rio-languages-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-languages/2.7.16/sesame-rio-languages-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-datatypes/2.7.16/sesame-rio-datatypes-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-datatypes/2.7.16/sesame-rio-datatypes-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-binary/2.7.16/sesame-rio-binary-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-binary/2.7.16/sesame-rio-binary-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-n3/2.7.16/sesame-rio-n3-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-n3/2.7.16/sesame-rio-n3-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-turtle/2.7.16/sesame-rio-turtle-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-turtle/2.7.16/sesame-rio-turtle-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4.jar" sourcepath="M2_REPO/commons-io/commons-io/2.4/commons-io-2.4-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-nquads/2.7.16/sesame-rio-nquads-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-nquads/2.7.16/sesame-rio-nquads-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-ntriples/2.7.16/sesame-rio-ntriples-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-ntriples/2.7.16/sesame-rio-ntriples-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfjson/2.7.16/sesame-rio-rdfjson-2.7.16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-rdfxml/2.7.16/sesame-rio-rdfxml-2.7.16.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trix/2.7.16/sesame-rio-trix-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-trix/2.7.16/sesame-rio-trix-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/openrdf/sesame/sesame-rio-trig/2.7.16/sesame-rio-trig-2.7.16.jar" sourcepath="M2_REPO/org/openrdf/sesame/sesame-rio-trig/2.7.16/sesame-rio-trig-2.7.16-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jsonld-java/jsonld-java-sesame/0.5.0/jsonld-java-sesame-0.5.0.jar" sourcepath="M2_REPO/com/github/jsonld-java/jsonld-java-sesame/0.5.0/jsonld-java-sesame-0.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/github/jsonld-java/jsonld-java/0.5.0/jsonld-java-0.5.0.jar" sourcepath="M2_REPO/com/github/jsonld-java/jsonld-java/0.5.0/jsonld-java-0.5.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient-cache/4.2.5/httpclient-cache-4.2.5.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient-cache/4.2.5/httpclient-cache-4.2.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpclient/4.2.5/httpclient-4.2.5-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4.jar" sourcepath="M2_REPO/org/apache/httpcomponents/httpcore/4.2.4/httpcore-4.2.4-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-codec/commons-codec/1.9/commons-codec-1.9.jar" sourcepath="M2_REPO/commons-codec/commons-codec/1.9/commons-codec-1.9-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar" sourcepath="M2_REPO/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-sesame/0.6.1/semargl-sesame-0.6.1.jar" sourcepath="M2_REPO/org/semarglproject/semargl-sesame/0.6.1/semargl-sesame-0.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-core/0.6.1/semargl-core-0.6.1.jar" sourcepath="M2_REPO/org/semarglproject/semargl-core/0.6.1/semargl-core-0.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-rdfa/0.6.1/semargl-rdfa-0.6.1.jar" sourcepath="M2_REPO/org/semarglproject/semargl-rdfa/0.6.1/semargl-rdfa-0.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/semarglproject/semargl-rdf/0.6.1/semargl-rdf-0.6.1.jar" sourcepath="M2_REPO/org/semarglproject/semargl-rdf/0.6.1/semargl-rdf-0.6.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3.jar" sourcepath="M2_REPO/net/sf/trove4j/trove4j/3.0.3/trove4j-3.0.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/guava/guava/18.0/guava-18.0.jar" sourcepath="M2_REPO/com/google/guava/guava/18.0/guava-18.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/guice/4.0/guice-4.0.jar" sourcepath="M2_REPO/com/google/inject/guice/4.0/guice-4.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" sourcepath="M2_REPO/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.jar" sourcepath="M2_REPO/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0.jar" sourcepath="M2_REPO/com/google/inject/extensions/guice-multibindings/4.0/guice-multibindings-4.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi/3.13/poi-3.13.jar" sourcepath="M2_REPO/org/apache/poi/poi/3.13/poi-3.13-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml/3.13/poi-ooxml-3.13.jar" sourcepath="M2_REPO/org/apache/poi/poi-ooxml/3.13/poi-ooxml-3.13-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/poi/poi-ooxml-schemas/3.13/poi-ooxml-schemas-3.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/stax/stax-api/1.0.1/stax-api-1.0.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar" sourcepath="M2_REPO/com/google/code/gson/gson/2.3.1/gson-2.3.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/junit/junit/3.8.1/junit-3.8.1.jar" sourcepath="M2_REPO/junit/junit/3.8.1/junit-3.8.1-sources.jar"/>
+</classpath>

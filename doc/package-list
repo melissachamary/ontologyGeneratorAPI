@@ -1,0 +1,6 @@
+hcl.epitrack.ontology.management.exception
+hcl.epitrack.ontology.management.ontologyGeneratorProcess
+hcl.epitrack.ontologygenerator.object
+hcl.epitrack.ontologygenerator.project
+hcl.epitrack.ontologygenerator.properties
+hcl.epitrack.ontologygenerator.properties.jacksonserializers

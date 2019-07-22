@@ -1,0 +1,31 @@
+[
+	
+	{ 
+	"ontology_id":"a",
+	"version": "1.0",
+	"version_info":"",
+	"owl_ref_file": "src/test/resources/projectOntologyGenerator/ontology_files/a.owl",
+	"owl_file":"src/test/resources/projectOntologyGenerator/ontology_files/a.owl"
+	},
+	{ 
+	"ontology_id":"b",
+	"version": "1.0",
+	"version_info":"",
+	"owl_ref_file": "src/test/resources/projectOntologyGenerator/ontology_files/b.owl",
+	"owl_file":"src/test/resources/projectOntologyGenerator/ontology_files/b.owl"
+	},
+	{ 
+	"ontology_id":"b",
+	"version": "1.0",
+	"version_info":"",
+	"owl_ref_file": "src/test/resources/projectOntologyGenerator/ontology_files/b.owl",
+	"owl_file":"src/test/resources/projectOntologyGenerator/ontology_files/b.owl"
+	},
+	{ 
+	"ontology_id":"c",
+	"version": "1.0",
+	"version_info":"",
+	"owl_ref_file": "src/test/resources/projectOntologyGenerator/ontology_files/c.owl",
+	"owl_file":"src/test/resources/projectOntologyGenerator/ontology_files/c.owl"
+	}
+]

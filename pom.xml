@@ -92,7 +92,7 @@ Plugin add because of maven compilation error on switch case containing strings
  <dependency>
          <groupId>org.apache.poi</groupId>
          <artifactId>poi</artifactId>
-         <version>3.13</version>
+         <version>3.17</version>
  </dependency>
  <dependency>
          <groupId>org.apache.poi</groupId>
